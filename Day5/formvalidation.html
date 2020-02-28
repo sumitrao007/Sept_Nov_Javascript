@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formvalid.css">
+</head>
+<body>
+    
+    <form action="" onsubmit="return validation()">
+        <div class="maincontainer">
+
+            <label for="username1">Username:</label> &nbsp;&nbsp;
+            <input type="text" 
+            placeholder="Enter the Username" 
+            id="username1" name="username"
+            onchange="usercheck()"
+            > <br>
+            <span id="usernamespan"></span>
+            <br><br>
+
+            <label for="">Password: </label>&nbsp;&nbsp;
+            <input type="password" 
+            placeholder="Enter the Password" 
+            id="password" name="password"
+            > 
+            <br>
+            <span id="passwordspan"></span>
+            <br><br>
+
+            <label for="">Confirm Password: </label>&nbsp;&nbsp;
+            <input type="password" 
+            placeholder="Enter the Confirm Password" 
+            id="confirmpassword" name="confirmpassword"
+            > 
+            <br>
+            <span id="confirmpassspan"></span>
+            <br><br>
+            <label for="">Mobile number: </label>&nbsp;&nbsp;
+            <input type="text" 
+            placeholder="Enter the Mobile Number" 
+            id="mobileno" name="mobileno"
+            > 
+            <br>
+            <span id="mobilenopan"></span>
+            <br><br>
+
+            <label for="">Email ID: </label>&nbsp;&nbsp;
+            <input type="text" 
+            placeholder="Enter the Email ID" 
+            id="emailid" name="emailid"
+            > 
+            <br>
+            <span id="emailspan"></span>
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </div>
+
+    </form>
+
+    <script src="formvalid.js"></script>
+</body>
+</html>

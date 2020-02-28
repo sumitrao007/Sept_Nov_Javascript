@@ -1,0 +1,10 @@
+.maincontainer{
+    text-align: center;
+}
+input{
+    padding: 5px;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
